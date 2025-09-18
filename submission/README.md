@@ -259,56 +259,8 @@ OPENAI_API_KEY=your_key_here
 - **Error Handling**: Sanitized error responses
 - **Logging**: Comprehensive request/response logging
 
-## 🎥 Demo Script
 
-### Recording Timeline (5-minute demo)
-1. **0:00-0:30** - System overview and architecture
-2. **0:30-1:30** - Frontend chat interface demonstration
-3. **1:30-2:30** - Real-time streaming responses with sources
-4. **2:30-3:30** - Data ingestion and knowledge base update
-5. **3:30-4:30** - API testing with curl commands
-6. **4:30-5:00** - Provider switching and deployment notes
-
-### Recording Commands
-```bash
-# Screen recording with ffmpeg (optional)
-ffmpeg -f screen -r 30 -i :0.0 -c:v libx264 -preset ultrafast demo.mp4
-
-# Alternative: Use OBS Studio or similar screen recording software
 ```
 
-## 📋 Assignment Requirements Mapping
 
-| Requirement | Implementation | Status |
-|-------------|----------------|---------|
-| Backend Tech Stack | Node.js + TypeScript + Express | ✅ |
-| Chat Endpoints | Full CRUD + streaming | ✅ |
-| Session Management | Redis with TTL | ✅ |
-| Vector Database | Qdrant + Chroma fallback | ✅ |
-| LLM Integration | Multi-provider support | ✅ |
-| Ingestion Pipeline | RSS + web scraping | ✅ |
-| Frontend Tech | React + TypeScript + SCSS | ✅ |
-| Responsive UI | Mobile + desktop | ✅ |
-| Docker Setup | Complete orchestration | ✅ |
-| Documentation | Comprehensive guides | ✅ |
-| Production Ready | Deployment instructions | ✅ |
 
-## 🤝 Contribution Guidelines
-
-1. Fork the repositories
-2. Create feature branches
-3. Follow TypeScript strict mode
-4. Add tests for new features
-5. Update documentation
-6. Submit pull requests
-
-## 📄 License
-
-MIT License - See LICENSE files in individual repositories.
-
----
-
-**Submission Date**: [Current Date]  
-**Assignment**: Voosh RAG Chatbot System  
-**Developer**: [Your Name]  
-**Contact**: [Your Email]
